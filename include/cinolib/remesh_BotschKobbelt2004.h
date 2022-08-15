@@ -36,7 +36,7 @@
 #ifndef CINO_REMESH_BOTSCH_KOBBELT_2004_H
 #define CINO_REMESH_BOTSCH_KOBBELT_2004_H
 
-#include <cinolib/meshes/drawable_trimesh.h>
+#include <cinolib/meshes/trimesh.h>
 
 namespace cinolib
 {
@@ -51,7 +51,7 @@ namespace cinolib
 
 template<class M, class V, class E, class P>
 CINO_INLINE
-void remesh_Botsch_Kobbelt_2004(DrawableTrimesh<M,V,E,P> & m,
+void remesh_Botsch_Kobbelt_2004(Trimesh<M,V,E,P> & m,
                                 const double               target_edge_length = -1,
                                 const bool                 preserve_marked_features = true);
 }

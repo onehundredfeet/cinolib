@@ -63,7 +63,7 @@ class mat
         explicit mat(const T v0, const T v1);
         explicit mat(const T v0, const T v1, const T v2);
         explicit mat() {}
-        virtual ~mat() {}
+        ~mat() {}
 
         //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
